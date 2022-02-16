@@ -1,0 +1,7 @@
+
+tensorflow==2.8.0
+gpflow==2.3.1
+matplotlib==3.5.1
+jax==0.3.0
+pandas==1.4.0
+celluloid==0.2.0
