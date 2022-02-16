@@ -1,4 +1,4 @@
-# Gaussian Process Tutorials for MOAP Workshop
+# Gaussian Process Tutorials for UCL-MOAP Workshop
 
 This repo contains the tutorials that I made in companion to my presentation at the UCL-MOAP workshop on "Bayesian Machine Learning for Weather and Climate". In particular, you can find implementations of all the experiments shown in the presentation and further details on various techniques that I didn't have time to present at the workshop.
 
