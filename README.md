@@ -1,4 +1,4 @@
-# Gaussian Process Tutorials for MOAP Workshop
+# Gaussian Process Tutorials for UCL-MOAP Workshop
 
 This repo contains the tutorials that I made in companion to my presentation at the UCL-MOAP workshop on "Bayesian Machine Learning for Weather and Climate". In particular, you can find implementations of all the experiments shown in the presentation and further details on various techniques that I didn't have time to present at the workshop.
 
@@ -14,7 +14,10 @@ To run the first three notebooks, please install the packages in the `requiremen
 ```
 pip install -r requirements.txt
 ```
-The codes in the fourth and fifth tutorials use our `riemannianvectorgp` package (can be found [here](https://github.com/MJHutchinson/ExtrinsicGaugeIndependentVectorGPs)), which is not on pip so you have to clone this into your repository and install the requirements therein. To plot the results, I used the `cartopy` package, which is easiest to install using conda.
+The codes in the fourth and fifth tutorials use our `riemannianvectorgp` package, which can be found [here](https://github.com/MJHutchinson/ExtrinsicGaugeIndependentVectorGPs). This is not on pip so you have to clone this into your repository and install the requirements therein. To plot the results, I used the `cartopy` package, which is easiest to install using conda by running
+```
+conda install -c conda-forge cartopy
+```
 
 ## Data
 All the datasets used in the tutorials are saved in the `data` directory.
