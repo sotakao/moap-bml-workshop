@@ -3,11 +3,11 @@
 This repo contains the tutorials that I made in companion to my presentation at the UCL-MOAP workshop on "Bayesian Machine Learning for Weather and Climate". In particular, you can find implementations of all the experiments shown in the presentation and further details on various techniques that I didn't have time to present at the workshop.
 
 The tutorial is divided into 5 parts, which cover the following topics.
-1. Basics of Gaussian process regression including how to set up a model, how to generate samples, how to condition on data and how to optimise for the hyperparameters using the log marginal likelihood.
-2. Sparse GPs, in particular Titsisas' inducing point method. The notebook contains information on the mathematical derivation of the model, comparative experiments with a vanilla Gaussian process and how to train the model.
+1. Basics of Gaussian process regression including how to set up a model, how to condition on data and how to optimise for the hyperparameters using the log marginal likelihood.
+2. Sparse GPs, in particular Titsisas' inducing point method. Includes information on the mathematical derivation, comparisons with a vanilla Gaussian process and training.
 3. Gaussian process inference for timeseries data using Kalman filtering or smoothing techniques.
-4. Global temperature interpolation using Matérn GPs defined on the sphere and comparison with a vanilla GP regression.
-5. Global wind speed interpolation using projected vector kernels.
+4. Global temperature interpolation using Matérn GPs defined on the sphere.
+5. Global wind speed interpolation using projected kernels.
 
 ## Requirements
 To run the first three notebook, please install the packages in the `requirements.txt` file by running
