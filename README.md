@@ -10,11 +10,11 @@ The tutorial is divided into 5 parts, which cover the following topics.
 5. Global wind speed interpolation using projected kernels.
 
 ## Requirements
-To run the first three notebook, please install the packages in the `requirements.txt` file by running
+To run the first three notebooks, please install the packages in the `requirements.txt` file by running
 ```
 pip install -r requirements.txt
 ```
-In addition, the codes in the fourth and fifth tutorials use our `riemannianvectorgp` package (can be found [here](https://github.com/MJHutchinson/ExtrinsicGaugeIndependentVectorGPs/tree/main/riemannianvectorgp)), which is not on pip so you have to clone this into your repository and install the requirements therein.
+The codes in the fourth and fifth tutorials use our `riemannianvectorgp` package (can be found [here](https://github.com/MJHutchinson/ExtrinsicGaugeIndependentVectorGPs/tree/main/riemannianvectorgp)), which is not on pip so you have to clone this into your repository and install the requirements therein. To plot the results, I used the `cartopy` package, which is easiest to install using conda.
 
 ## Data
-All the datasets used in the tutorials are saved in the `data` directory so you don't have to download data externally to run the notebooks.
+All the datasets used in the tutorials are saved in the `data` directory.
