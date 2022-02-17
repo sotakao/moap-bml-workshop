@@ -9,6 +9,8 @@ The tutorial is divided into 5 parts, which cover the following topics.
 4. Global temperature interpolation using Matérn GPs defined on the sphere.
 5. Global wind speed interpolation using projected kernels.
 
+![gp_conditioning_vid](https://github.com/sotakao/moap-bml-workshop/blob/main/figs/gp_conditioning.gif)
+
 ## Dependencies
 To run the first three notebooks, please install the packages in the `requirements.txt` file by running
 ```
